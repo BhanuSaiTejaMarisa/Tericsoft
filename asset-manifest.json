@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Tericsoft/static/css/main.abf5887f.css",
+    "main.js": "/Tericsoft/static/js/main.8621521d.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Tericsoft/static/js/787.28cb0dcd.chunk.js",
+    "static/media/logo.svg": "/Tericsoft/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Tericsoft/index.html",
+    "main.abf5887f.css.map": "/Tericsoft/static/css/main.abf5887f.css.map",
+    "main.8621521d.js.map": "/Tericsoft/static/js/main.8621521d.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Tericsoft/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abf5887f.css",
+    "static/js/main.8621521d.js"
+  ]
+}
