@@ -22,7 +22,7 @@ export default function BasicTable() {
 
   function getData(){
     setIsLoading(true);
-    axios.get("http://localhost:3333/employees")
+    axios.get("https://github.com/BhanuSaiTejaMarisa/Tericsoft/blob/master/database.json")
     .then(res=>{
       console.log(res.data);
       setData(res.data);
@@ -43,7 +43,7 @@ export default function BasicTable() {
   }
   function deleteData(id){
     setIsLoading(true)
-    axios.delete(`http://localhost:3333/employees/${id}`)
+    axios.delete(`https://github.com/BhanuSaiTejaMarisa/Tericsoft/blob/master/database.json/${id}`)
     .then(res=>{
       console.log(res);
       getData();
