@@ -1,0 +1,13 @@
+{
+  "employees": [
+    {
+      "name": "Bhanu Sai Teja Marisa",
+      "email": "bhanu3475@gmail.com",
+      "phone": "09912365459",
+      "dob": "2022-03-16",
+      "gender": "Male",
+      "hobbies": "Painting",
+      "id": 4
+    }
+  ]
+}
