@@ -26,7 +26,7 @@ export default function Input(){
         // console.log(data);
     }
     function getData(props){
-        axios.get("https://json-server-bhanu.herokuapp.com/employees")
+        axios.get("https://fake-json-server-bhanu.herokuapp.com/employees")
         .then(res=>{
           console.log(res.data);
           setData(res.data);
