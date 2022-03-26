@@ -44,7 +44,7 @@ export default function Input(){
         console.log(data);
     }
     function postData(){
-        axios.post("https://json-server-bhanu.herokuapp.com/employees",data)
+        axios.post("https://fake-json-server-bhanu.herokuapp.com/employees",data)
         .then(res=>{
             console.log(res);
             getData();

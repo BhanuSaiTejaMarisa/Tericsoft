@@ -22,7 +22,8 @@ export default function BasicTable() {
 
   function getData(){
     setIsLoading(true);
-    axios.get("https://json-server-bhanu.herokuapp.com/employees")
+    
+    axios.get("https://fake-json-server-bhanu.herokuapp.com//employees")
     .then(res=>{
       console.log(res.data);
       setData(res.data);
@@ -43,7 +44,7 @@ export default function BasicTable() {
   }
   function deleteData(id){
     setIsLoading(true)
-    axios.delete(`https://json-server-bhanu.herokuapp.com/employees/${id}`)
+    axios.delete(`https://fake-json-server-bhanu.herokuapp.com/employees/${id}`)
     .then(res=>{
       console.log(res);
       getData();
