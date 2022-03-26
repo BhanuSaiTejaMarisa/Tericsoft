@@ -26,7 +26,7 @@ export default function Input(){
         // console.log(data);
     }
     function getData(props){
-        axios.get("http://localhost:3333/employees")
+        axios.get("https://json-server-bhanu.herokuapp.com/employees")
         .then(res=>{
           console.log(res.data);
           setData(res.data);
@@ -44,7 +44,7 @@ export default function Input(){
         console.log(data);
     }
     function postData(){
-        axios.post("http://localhost:3333/employees",data)
+        axios.post("https://json-server-bhanu.herokuapp.com/employees",data)
         .then(res=>{
             console.log(res);
             getData();

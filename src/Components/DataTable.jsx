@@ -22,7 +22,7 @@ export default function BasicTable() {
 
   function getData(){
     setIsLoading(true);
-    axios.get("https://github.com/BhanuSaiTejaMarisa/Tericsoft/blob/master/database.json")
+    axios.get("https://json-server-bhanu.herokuapp.com/employees")
     .then(res=>{
       console.log(res.data);
       setData(res.data);
@@ -43,7 +43,7 @@ export default function BasicTable() {
   }
   function deleteData(id){
     setIsLoading(true)
-    axios.delete(`https://github.com/BhanuSaiTejaMarisa/Tericsoft/blob/master/database.json/${id}`)
+    axios.delete(`https://json-server-bhanu.herokuapp.com/employees/${id}`)
     .then(res=>{
       console.log(res);
       getData();
@@ -107,5 +107,4 @@ export default function BasicTable() {
     <button onClick={()=>setModal(false)}>close</button>
     </div>}
     </>
-  
 }
